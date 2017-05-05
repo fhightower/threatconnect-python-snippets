@@ -6,13 +6,13 @@ As the name implies, you will need access to [ThreatConnect's](https://threatcon
 
 ## Snippet Design Paradigm
 
-If a paradigms is too rich for your blood, feel free to jump to the [**Examples**](#examples) section below. For the rest, each snippet is constructed as follows:
+If a paradigms is too rich for your blood, feel free to jump to the [Examples](#examples) section below. For the rest, each snippet is constructed as follows:
 
 ```
 tc<action><object>
 ```
 
-The `<action>` is usually one letter that represents *what* we want to do (refer to the **Action** section below). The `<object>` specifies the type of object (refer to the **Objects** section below for a list of possible objects) to which the aforementioned action will be done. For you language buffs, the `<object>` is really an indirect object.
+The `<action>` is usually one letter that represents *what* we want to do (refer to the [Actions](#actions) section below). The `<object>` specifies the type of object (refer to the [Objects](#objects) section below for a list of possible objects) to which the aforementioned action will be done. For you language buffs, the `<object>` is really an indirect object.
 
 ### Actions
 
