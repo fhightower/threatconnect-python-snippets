@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+filter1.add_${1:tag}(${2:})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tcfilter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

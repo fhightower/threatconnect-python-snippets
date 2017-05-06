@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# set the confidence rating for the indicator
+indicator.set_confidence(${1:75})
+# set the threat rating for the indicator
+indicator.set_rating(${2:2.5})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tcaratings</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

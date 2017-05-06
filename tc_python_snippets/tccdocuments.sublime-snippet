@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+# instantiate a documents container
+documents = tc.documents()
+
+# create a new document
+document = documents.add('${1:document name here}', owner)
+
+${2:# add metadata here if needed}
+try:
+    # create the document
+    document.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tccdocuments</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+try:
+    import ConfigParser
+except:
+    import configparser as ConfigParser
+import sys
+
+from threatconnect import ThreatConnect
+
+config = ConfigParser.RawConfigParser()
+config.read("${1:./tc.conf}")
+
+try:
+    api_access_id = config.get('threatconnect', 'api_access_id')
+    api_secret_key = config.get('threatconnect', 'api_secret_key')
+    api_default_org = config.get('threatconnect', 'api_default_org')
+    api_base_url = config.get('threatconnect', 'api_base_url')
+except ConfigParser.NoOptionError:
+    print('Could not read configuration file.')
+    sys.exit(1)
+
+tc = ThreatConnect(api_access_id, api_secret_key, api_default_org, api_base_url)
+
+owner = '${2:api_default_org}'
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tcconfig</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

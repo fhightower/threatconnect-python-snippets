@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# instantiate an adversaries container
+adversaries = tc.adversaries()
+
+# create a new adversary
+adversary = adversaries.add('${1:adversary name here}', owner)
+
+${2:# add metadata here if needed}
+try:
+    # create the adversary
+    adversary.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tccadversaries</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# retrieve indicators
+indicators = tc.indicators()
+
+${1:# add filtering here if needed}
+try:
+    indicators.retrieve()
+except RunTimeErrors as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+for indicator in indicators:
+    ${2:print(indicator.indicator)}
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tcrindicator</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

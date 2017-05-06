@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# iterate through associated groups
+for associated_group in ${1:indicator}.group_associations:
+    ${2:print(associated_group.name)}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tcrassocgroups</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

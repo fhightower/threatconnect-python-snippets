@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+# instantiate a campaigns container
+campaigns = tc.campaigns()
+
+# create a new campaign
+campaign = campaigns.add('${1:campaign name here}', owner)
+
+${2:# add metadata here if needed}
+try:
+    # create the campaign
+    campaign.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcccampaigns</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
