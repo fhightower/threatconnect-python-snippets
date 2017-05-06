@@ -1,12 +1,12 @@
 # ThreatConnect Python SDK Sublime Text Snippets
 
-The goal of these snippets are to make writing scripts and applications that talk to ThreatConnect quick and easy.
+The goal of this project is to make snippets such that you can write a useful python script that talks with ThreatConnect's API in less than **less than 60 seconds**.
 
 As the name implies, you will need access to [ThreatConnect's](https://threatconnect.com) API before these snippets are useful. Additionally, these snippets are designed for use with [Sublime Text](https://www.sublimetext.com/3). If you haven't tried it yet, I strongly encourage you to do so.
 
 ## Snippet Design Paradigm
 
-If a paradigms is too rich for your blood, feel free to jump to the [Examples](#examples) section below. For the rest, each snippet is constructed as follows:
+If a paradigms isn't worth your time, feel free to jump to the [Examples](#examples) section below (I don't want to shortchange anyone). For the rest, each snippet is constructed as follows:
 
 ```
 tc<action><object>
