@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# instantiate a campaigns container
+campaigns = tc.campaigns()
+
+${1:# add filtering here if needed}
+try:
+    # retrieve campaigns
+    campaigns.retrieve()
+except RunTimeErrors as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+# iterate through the retrieved campaigns
+for campaign in campaigns:
+    ${2:print(campaign.name)}
+
+
+]]></content>
+    <tabTrigger>tcrcampaigns</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

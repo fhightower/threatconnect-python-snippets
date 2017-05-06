@@ -22,7 +22,7 @@ except ConfigParser.NoOptionError:
 
 tc = ThreatConnect(api_access_id, api_secret_key, api_default_org, api_base_url)
 
-owner = '${2:api_default_org}'
+owner = ${2:api_default_org}
 
 
 ]]></content>

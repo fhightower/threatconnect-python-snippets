@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# instantiate an emails container
+emails = tc.emails()
+
+${1:# add filtering here if needed}
+try:
+    # retrieve emails
+    emails.retrieve()
+except RunTimeErrors as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+# iterate through the retrieved emails
+for email in emails:
+    ${2:print(email.name)}
+
+
+]]></content>
+    <tabTrigger>tcremails</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

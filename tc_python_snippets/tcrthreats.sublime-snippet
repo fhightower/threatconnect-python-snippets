@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# instantiate a threats container
+threats = tc.threats()
+
+${1:# add filtering here if needed}
+try:
+    # retrieve threats
+    threats.retrieve()
+except RunTimeErrors as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+# iterate through the retrieved threats
+for threat in threats:
+    ${2:print(threat.name)}
+
+
+]]></content>
+    <tabTrigger>tcrthreats</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
