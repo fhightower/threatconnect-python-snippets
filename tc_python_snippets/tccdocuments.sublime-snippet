@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-# instantiate a documents container
+# instantiate documents object
 documents = tc.documents()
 
 # create a new document

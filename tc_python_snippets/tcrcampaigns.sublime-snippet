@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-# instantiate a campaigns container
+# instantiate campaigns object
 campaigns = tc.campaigns()
 
 ${1:# add filtering here if needed}

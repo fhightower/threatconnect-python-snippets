@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate signatures object
+signatures = tc.signatures()
+
+# rename the signature
+signature = signatures.add('${1:Updated Signature Name}', owner)
+# specify the ID of the signature you wish to update
+signature.set_id(${2:<Existing signature ID>})
+
+${3:# make other updates here}
+try:
+    # update the signature
+    signature.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcusignatures</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

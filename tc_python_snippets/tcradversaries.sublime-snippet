@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-# instantiate an adversaries container
+# instantiate adversaries object
 adversaries = tc.adversaries()
 
 ${1:# add filtering here if needed}

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-# instantiate a threats container
+# instantiate threats object
 threats = tc.threats()
 
 # create a new threat

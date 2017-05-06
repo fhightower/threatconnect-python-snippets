@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate emails object
+emails = tc.emails()
+
+# rename the email
+email = emails.add('${1:Updated Email Name}', owner)
+# specify the ID of the email you wish to update
+email.set_id(${2:<Existing email ID>})
+
+${3:# make other updates here}
+try:
+    # update the email
+    email.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcuemails</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

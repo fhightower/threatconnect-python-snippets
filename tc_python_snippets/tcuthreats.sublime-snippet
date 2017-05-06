@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate threats object
+threats = tc.threats()
+
+# rename the threat
+threat = threats.add('${1:Updated Threat Name}', owner)
+# specify the ID of the threat you wish to update
+threat.set_id(${2:<Existing threat ID>})
+
+${3:# make other updates here}
+try:
+    # update the threat
+    threat.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcuthreats</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

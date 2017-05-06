@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate documents object
+documents = tc.documents()
+
+# rename the document
+document = documents.add('${1:Updated Document Name}', owner)
+# specify the ID of the document you wish to update
+document.set_id(${2:<Existing document ID>})
+
+${3:# make other updates here}
+try:
+    # update the document
+    document.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcudocuments</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

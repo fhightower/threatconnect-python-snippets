@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-# instantiate a signatures container
+# instantiate signatures object
 signatures = tc.signatures()
 
 # create a new signature

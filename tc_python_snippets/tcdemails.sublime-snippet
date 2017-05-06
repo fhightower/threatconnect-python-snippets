@@ -1,20 +1,22 @@
+
 <snippet>
     <content><![CDATA[
 # instantiate emails object
 emails = tc.emails()
 
-# create a new email
-email = emails.add('${1:email name here}', owner)
+# create an empty email
+email = emails.add('', owner)
+# specify the ID of the email you wish to delete
+email.set_id(${1:<Existing email ID>})
 
-${2:# add metadata here if needed}
 try:
-    # create the email
-    email.commit()
+    # delete the email
+    email.delete()
 except RuntimeError as e:
     print('Error: {0}'.format(e))
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccemails</tabTrigger>
+    <tabTrigger>tcdemails</tabTrigger>
     <scope>source.python</scope>
 </snippet>

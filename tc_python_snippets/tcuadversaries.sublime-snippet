@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+# instantiate adversaries object
+adversaries = tc.adversaries()
+
+# rename the adversary
+adversary = adversaries.add('${1:Updated Adversary Name}', owner)
+# specify the ID of the adversary you wish to update
+adversary.set_id(${2:<Existing Adversary ID>})
+
+${3:# make other updates here}
+try:
+    # update the adversary
+    adversary.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcuadversaries</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

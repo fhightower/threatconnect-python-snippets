@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate campaigns object
+campaigns = tc.campaigns()
+
+# rename the campaign
+campaign = campaigns.add('${1:Updated Campaign Name}', owner)
+# specify the ID of the campaign you wish to update
+campaign.set_id(${2:<Existing campaign ID>})
+
+${3:# make other updates here}
+try:
+    # update the campaign
+    campaign.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcucampaigns</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

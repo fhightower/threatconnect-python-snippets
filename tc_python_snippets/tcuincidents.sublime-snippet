@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate incidents object
+incidents = tc.incidents()
+
+# rename the incident
+incident = incidents.add('${1:Updated Incident Name}', owner)
+# specify the ID of the incident you wish to update
+incident.set_id(${2:<Existing incident ID>})
+
+${3:# make other updates here}
+try:
+    # update the incident
+    incident.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcuincidents</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

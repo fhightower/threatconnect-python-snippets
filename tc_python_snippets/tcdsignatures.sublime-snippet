@@ -1,0 +1,22 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate signatures object
+signatures = tc.signatures()
+
+# create an empty signature
+signature = signatures.add('', owner)
+# specify the ID of the signature you wish to delete
+signature.set_id(${1:<Existing signature ID>})
+
+try:
+    # delete the signature
+    signature.delete()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tcdsignatures</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
