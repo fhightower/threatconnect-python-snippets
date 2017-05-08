@@ -2,6 +2,8 @@
 
 The goal of this project is to make snippets such that you can write a useful python script that talks with ThreatConnect's API in less than **less than 60 seconds**.
 
+![demo](demo/tc_python_snippets.gif)
+
 As the name implies, you will need access to [ThreatConnect's](https://threatconnect.com) API before these snippets are useful. Additionally, these snippets are designed for use with [Sublime Text](https://www.sublimetext.com/3). If you haven't tried it yet, I strongly encourage you to do so.
 
 ## Snippet Design Paradigm
