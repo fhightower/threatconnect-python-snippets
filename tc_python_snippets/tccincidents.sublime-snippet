@@ -6,6 +6,9 @@ incidents = tc.incidents()
 # create a new incident
 incident = incidents.add('${1:incident name here}', owner)
 
+# set the event date for the incident (required)
+incident.set_event_date('${1:2017-03-21T00:00:00Z}')
+
 ${2:# add metadata here if needed}
 try:
     # create the incident
