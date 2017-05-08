@@ -16,7 +16,14 @@ The `<action>` is usually one letter that represents *what* we want to do (refer
 
 ### Actions
 
-List of possible actions coming soon...
+| Desired Action | Action Prefix | Description |  
+| --- | --- | --- |
+| **R**etrieve | `r` | Retrieve something from ThreatConnect |
+| **C**reate | `c` | Create something in ThreatConnect |
+| **U**pdate | `u` | Update something that already exits in ThreatConnect |
+| **D**elete | `d` | Delete something from ThreatConnect |
+| **A**dd/set Metadata | `a` | Add metadata to an object |
+| **F**ilter | `f` | Filter objects when retrieving |  
 
 ### Objects
 
@@ -29,22 +36,109 @@ List of possible actions coming soon...
 - `tcfindicators`: in this snippet, `f` is the action (it stands for "**f**ilter") and `indicators` are the object. Thus, this snippet provides code to filter indicators.
 - `tcfgroups`: in this snippet, `f` is the action (it stands for "**f**ilter") and `groups` are the object. Thus, this snippet provides code to filter groups.
 
-## Complete list
+## Complete List of Snippets
 
-More in this section is coming soon...
-
-### Misc.
+### Helpful Utility Snippets
 
 - `tcconfig`: get a standard ThreatConnect configuration to start a script
 
 ### Indicators
 
-More in this section is coming soon...
+#### Retrieving Indicators
+
+- `tcrindicators`: retrieve indicators (all indicator types)
+- Coming soon...
+
+#### Filtering Indicators
+
+Coming soon...
+
+#### Creating Indicators
+
+Coming soon...
+
+#### Deleting Indicators
+
+Coming soon...
 
 ### Groups
 
-More in this section is coming soon...
+#### Retrieving Groups
+
+- `tcradversaries`: retrieve adversaries
+- `tcrcampaigns`: retrieve campaigns
+- `tcrdocuments`: retrieve documents
+- `tcremails`: retrieve emails
+- `tcrgroups`: retrieve groups (all group types)
+- `tcrincidents`: retrieve incidents
+- `tcrsignatures`: retrieve signatures
+- `tcrthreats`: retrieve threats
+
+#### Filtering Groups
+
+Coming soon...
+
+#### Creating Groups
+
+- `tccadversaries`: create adversaries
+- `tcccampaigns`: create campaigns
+- `tccdocuments`: create documents
+- `tccemails`: create emails
+- `tccincidents`: create incidents
+- `tccsignatures`: create signatures
+- `tccthreats`: create threats
+
+#### Updating Groups
+
+- `tcuadversaries`: update adversaries
+- `tcucampaigns`: update campaigns
+- `tcudocuments`: update documents
+- `tcuemails`: update emails
+- `tcuincidents`: update incidents
+- `tcusignatures`: update signatures
+- `tcuthreats`: update threats
+
+#### Deleting Groups
+
+- `tcdadversaries`: delete adversaries
+- `tcdcampaigns`: delete campaigns
+- `tcddocuments`: delete documents
+- `tcdemails`: delete emails
+- `tcdincidents`: delete incidents
+- `tcdsignatures`: delete signatures
+- `tcdthreats`: delete threats
 
 ### Victims
 
-More in this section is coming soon...
+Coming soon...
+
+#### Retrieving Victims
+
+#### Filtering Victims
+
+#### Creating Victims
+
+#### Updating Victims
+
+#### Deleting Victims
+
+### Metadata
+
+#### Retrieving Metadata
+
+Coming soon...
+
+#### Adding Metadata
+
+- `tcaattribute`: adding an attribute
+- `tcaratings`: adding a threat and confidence rating
+- `tcasecuritylabel`: adding a security label
+- `tcatag`: adding a tag
+
+#### Updating Metadata
+
+Coming soon...
+
+#### Deleting Metadata
+
+Coming soon...
