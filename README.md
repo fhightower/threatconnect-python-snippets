@@ -25,6 +25,7 @@ The `<action>` is usually one letter that represents *what* we want to do (refer
 | **U**pdate | `u` | Update something that already exits in ThreatConnect |
 | **D**elete | `d` | Delete something from ThreatConnect |
 | **A**dd/set Metadata | `a` | Add metadata to an object |
+| **L**oad Metadata | `l` | Load metadata for an object |
 | **F**ilter | `f` | Filter objects when retrieving |  
 
 ### Objects
