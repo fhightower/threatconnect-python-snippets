@@ -1,0 +1,25 @@
+
+<snippet>
+    <content><![CDATA[
+# instantiate indicators object
+indicators = tc.indicators()
+
+# set a filter to retrieve a specific file indicator
+filter1 = indicators.add_filter()
+filter1.add_indicator('${1:enter file here}')
+${2:# enter additional filters here if needed}
+
+try:
+    # retrieve the file
+    indicators.retrieve()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+# do something with the retrieved file
+for indicator in indicators:
+    ${3:print(indicator.indicator)}
+]]></content>
+    <tabTrigger>tcrsfile</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

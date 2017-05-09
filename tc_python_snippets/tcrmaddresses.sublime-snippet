@@ -1,0 +1,26 @@
+
+<snippet>
+    <content><![CDATA[
+# this allows us to filter based on indicator type
+from threatconnect.Config.IndicatorType import IndicatorType
+
+# instantiate indicators object
+indicators = tc.indicators()
+
+# set a filter to retrieve address indicators
+filter1 = indicators.add_filter(IndicatorType.ADDRESSES)
+${1:# enter additional filters here if needed}
+try:
+    # retrieve the addresses
+    indicators.retrieve()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+# do something with the retrieved addresses
+for indicator in indicators:
+    ${2:print(indicator.indicator)}
+]]></content>
+    <tabTrigger>tcrmaddresses</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
