@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:indicator}.load_attributes()
+
+for attribute in ${1:indicator}.attributes:
+    ${2:print(attribute.type)}
+]]></content>
+    <tabTrigger>tclattributes</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
