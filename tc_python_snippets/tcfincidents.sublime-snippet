@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+# add filter(s) for incidents
+filter1 = incidents.add_filter()
+filter1.add_${1:owner}(${2:owner})
+
+]]></content>
+    <tabTrigger>tcfincidents</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

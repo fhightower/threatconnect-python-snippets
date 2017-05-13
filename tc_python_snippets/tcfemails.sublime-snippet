@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+# add filter(s) for emails
+filter1 = emails.add_filter()
+filter1.add_${1:owner}(${2:owner})
+
+]]></content>
+    <tabTrigger>tcfemails</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

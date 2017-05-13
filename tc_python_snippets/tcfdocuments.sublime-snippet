@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+# add filter(s) for documents
+filter1 = documents.add_filter()
+filter1.add_${1:owner}(${2:owner})
+
+]]></content>
+    <tabTrigger>tcfdocuments</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

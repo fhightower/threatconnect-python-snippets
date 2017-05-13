@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+# add filter(s) for threats
+filter1 = threats.add_filter()
+filter1.add_${1:owner}(${2:owner})
+
+]]></content>
+    <tabTrigger>tcfthreats</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

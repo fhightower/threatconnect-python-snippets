@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+# add filter(s) for groups
+filter1 = groups.add_filter()
+filter1.add_${1:owner}(${2:owner})
+
+]]></content>
+    <tabTrigger>tcfgroups</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
