@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+# this allows us to create associations with the proper indicator type
+from threatconnect.Config.ResourceType import ResourceType
+
+ # create an association between this ${1:incident} and the indicator ${3:}
+${1:incident}.associate_indicator(ResourceType.${2:FILES}, '${3:enter indicator}')
+]]></content>
+    <tabTrigger>tcaindicatorassociation</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
