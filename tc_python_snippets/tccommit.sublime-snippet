@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+# commit the ${1:indicator}
+${1:indicator}.commit()
+]]></content>
+    <tabTrigger>tccommit</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
