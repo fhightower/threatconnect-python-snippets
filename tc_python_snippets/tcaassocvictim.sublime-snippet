@@ -3,6 +3,6 @@
 # create an association between this ${1:indicator} and the victim with id ${2:}
 ${1:indicator}.associate_victim(${2:enter victim ID})
 ]]></content>
-    <tabTrigger>tcavictimassociation</tabTrigger>
+    <tabTrigger>tcaassocvictim</tabTrigger>
     <scope>source.python</scope>
 </snippet>

@@ -6,6 +6,6 @@ from threatconnect.Config.ResourceType import ResourceType
 # create an association between this ${1:incident} and the indicator ${3:}
 ${1:incident}.associate_indicator(ResourceType.${2:FILES}, '${3:enter indicator}')
 ]]></content>
-    <tabTrigger>tcaindicatorassociation</tabTrigger>
+    <tabTrigger>tcaassocindicator</tabTrigger>
     <scope>source.python</scope>
 </snippet>

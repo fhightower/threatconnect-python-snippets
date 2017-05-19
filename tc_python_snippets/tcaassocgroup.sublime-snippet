@@ -6,6 +6,6 @@ from threatconnect.Config.ResourceType import ResourceType
 # create an association between this ${1:indicator} and the group with id ${3:}
 ${1:indicator}.associate_group(ResourceType.${2:INCIDENTS}, ${3:enter group ID})
 ]]></content>
-    <tabTrigger>tcagroupassociation</tabTrigger>
+    <tabTrigger>tcaassocgroup</tabTrigger>
     <scope>source.python</scope>
 </snippet>
