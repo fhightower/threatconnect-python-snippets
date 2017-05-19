@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# load the occurrences of this file
+$(1:indicator}.load_file_occurrence()
+
+# iterate through the file's occurrences
+for file_occurrence in $(1:indicator}.file_occurrences:
+    ${2:print(file_occurrence.file_name)}
+]]></content>
+    <tabTrigger>tclfileoccurrences</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
