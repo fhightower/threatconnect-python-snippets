@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+# retrieve the ${1:indicators}
+${1:indicators}.retrieve()
+]]></content>
+    <tabTrigger>tcretrieve</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
