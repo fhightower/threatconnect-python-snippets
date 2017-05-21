@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# load the ${1:indicator}'s security_labels
+${1:indicator}.load_security_labels()
+
+# iterate through the ${1:indicator}'s security_labels
+for security_label in ${1:indicator}.security_labels:
+    ${2:print(security_label.type)}
+]]></content>
+    <tabTrigger>tclsecurity_labels</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

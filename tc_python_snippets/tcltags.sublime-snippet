@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# load the ${1:indicator}'s tags
+${1:indicator}.load_tags()
+
+# iterate through the ${1:indicator}'s tags
+for tag in ${1:indicator}.tags:
+    ${2:print(tag.type)}
+]]></content>
+    <tabTrigger>tcltags</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+# load the ${1:indicator}'s associations
+${1:indicator}.load_associations()
+
+# iterate through the ${1:indicator}'s associations
+for association in ${1:indicator}.associations:
+    ${2:print(association.type)}
+]]></content>
+    <tabTrigger>tclassociations</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

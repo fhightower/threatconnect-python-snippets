@@ -1,7 +1,9 @@
 <snippet>
     <content><![CDATA[
+# load the ${1:indicator}'s attributes
 ${1:indicator}.load_attributes()
 
+# iterate through the ${1:indicator}'s attributes
 for attribute in ${1:indicator}.attributes:
     ${2:print(attribute.type)}
 ]]></content>
