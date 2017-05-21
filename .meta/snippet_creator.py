@@ -6,48 +6,59 @@ For example, once you create a snippet that will filter adversaries, you can eas
 """
 
 # define the starting template we will use to create the other snippets
-snippet_template = """
-<snippet>
+snippet_template = """<snippet>
     <content><![CDATA[
-# add filter(s) for adversaries
-filter1 = adversaries.add_filter()
-filter1.add_${1:owner}(${2:owner})
+# load the ${1:indicator}'s attributes
+${1:indicator}.load_attributes()
 
+# iterate through the ${1:indicator}'s attributes
+for attribute in ${1:indicator}.attributes:
+    ${2:print(attribute.type)}
 ]]></content>
-    <tabTrigger>tcfadversaries</tabTrigger>
+    <tabTrigger>tclattributes</tabTrigger>
     <scope>source.python</scope>
-</snippet>
-"""
+</snippet>"""
 
-# these are the names of the objects in the snippet that should be replaced
-object_names = ["adversaries", "adversary"]
+"""Names of the items to be replaced from the template snippet.
+PLURAL NAME MUST COME FIRST!!! This prevents any the first part of the plural instances of the name (the part before the 's') being replaced as if they were singular."""
+object_names = ["attributes", "attribute"]
 
 # replace any brackets with other characters (this will be undone later)
 snippet_template = snippet_template.replace("{", "!?!").replace("}", "?!?")
 
-# replace all of the object names in the current snippet with brackets
-for name in object_names:
-    # replace the object name
-    snippet_template = snippet_template.replace(name, "{}")
-    # replace the capitalized object name
-    snippet_template = snippet_template.replace(name.title(), "{}")
+"""Singular names of the objects that will replace any of the object_names found in the snippet template."""
+# replacements = ["campaign", "document", "email", "incident", "signature", "threat"]
+# replacements = ["address", "file", "host", "url"]
+replacements = ["association", "security_label", "tag"]
 
 # this is the prefix of the action we are performing with this snippet
-action_letter = "f"
-groups = ["campaign", "document", "email", "incident", "signature", "threat"]
-# indicators = ["address", "file", "host", "url"]
+action_letter = "l"
 
-# create a snippet for each group
-for group in groups:
-    plural_group = group + "s"
+# iterate through all of the replacements and replace them appropriately
+for replacement in replacements:
+    new_snippet = snippet_template
 
-    # fill in the snippet_template with the group names as appropriate
-    new_snippet = snippet_template.format(plural_group, plural_group,
-                                          plural_group)
+    # find and replace each object name with the appropriate replacement
+    for name in object_names:
+        # if the object name is plural, use a plural form of the replacement
+        if name.endswith("s"):
+            current_replacement = replacement + "s"
+        # if the object name is plural, keep the singular replacement
+        else:
+            current_replacement = replacement
+
+        # replace the object name
+        new_snippet = new_snippet.replace(name, "{0}")
+        # replace the capitalized object name
+        new_snippet = new_snippet.replace(name.title(), "{0}")
+
+        # replace the object name with the new replacement
+        new_snippet = new_snippet.format(current_replacement)
+
     # add the original brackets back into the snippet
     new_snippet = new_snippet.replace("?!?", "}").replace("!?!", "{")
 
     # write the new snippet to the appropriate file
     with open("./../tc_python_snippets/" + "tc" + action_letter +
-              plural_group + ".sublime-snippet", "w+") as f:
+              replacement + "s" + ".sublime-snippet", "w+") as f:
         f.write(new_snippet)
