@@ -3,8 +3,6 @@
 # add a security label
 ${1:indicator}.set_security_label('${2:Security label}')
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>tcasecuritylabel</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

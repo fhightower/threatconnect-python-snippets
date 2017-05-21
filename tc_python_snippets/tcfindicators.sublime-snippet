@@ -5,8 +5,6 @@ filter1 = indicators.add_filter()
 filter1.add_${1:owner}(${2:owner})
 
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>tcfindicators</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

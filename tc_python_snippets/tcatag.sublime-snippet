@@ -3,8 +3,6 @@
 # add a tag
 ${1:indicator}.add_tag('${2:Tag Name}')
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>tcatag</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>
