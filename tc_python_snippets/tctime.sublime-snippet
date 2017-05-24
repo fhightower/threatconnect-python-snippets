@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+datetime.isoformat(datetime${1:.today()}) + 'Z'
+]]></content>
+    <tabTrigger>tctime</tabTrigger>
+    <scope>source.python</scope>
+    <description>Time format for TC's Py SDK (REQUIRES: from datetime import datetime)</description>
+</snippet>
