@@ -19,4 +19,5 @@ for campaign in campaigns:
 ]]></content>
     <tabTrigger>tcrcampaigns</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve campaigns</description>
 </snippet>

@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcucampaigns</tabTrigger>
+    <tabTrigger>tcucampaign</tabTrigger>
     <scope>source.python</scope>
+    <description>Update campaign</description>
 </snippet>

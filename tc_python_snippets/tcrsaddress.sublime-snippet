@@ -22,4 +22,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrsaddress</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve a single IP address</description>
 </snippet>

@@ -22,4 +22,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrmemailAddresses</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve multiple email addresses</description>
 </snippet>

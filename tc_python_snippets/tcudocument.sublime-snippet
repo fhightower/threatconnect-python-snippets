@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcudocuments</tabTrigger>
+    <tabTrigger>tcudocument</tabTrigger>
     <scope>source.python</scope>
+    <description>Update document</description>
 </snippet>

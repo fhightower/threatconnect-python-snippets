@@ -5,4 +5,5 @@ ${1:indicator}.commit()
 ]]></content>
     <tabTrigger>tccommit</tabTrigger>
     <scope>source.python</scope>
+    <description>Generic commit</description>
 </snippet>

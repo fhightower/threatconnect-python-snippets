@@ -9,4 +9,5 @@ for tag in ${1:indicator}.tags:
 ]]></content>
     <tabTrigger>tcltags</tabTrigger>
     <scope>source.python</scope>
+    <description>Load tags</description>
 </snippet>

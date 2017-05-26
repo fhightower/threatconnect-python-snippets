@@ -15,6 +15,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccemails</tabTrigger>
+    <tabTrigger>tccemail</tabTrigger>
     <scope>source.python</scope>
+    <description>Create email</description>
 </snippet>

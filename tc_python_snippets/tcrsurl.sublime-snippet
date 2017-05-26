@@ -22,4 +22,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrsurl</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve a single URL</description>
 </snippet>

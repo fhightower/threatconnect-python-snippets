@@ -5,4 +5,5 @@ ${1:indicator}.add_tag('${2:Tag Name}')
 ]]></content>
     <tabTrigger>tcatag</tabTrigger>
     <scope>source.python</scope>
+    <description></description>
 </snippet>

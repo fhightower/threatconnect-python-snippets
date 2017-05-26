@@ -15,6 +15,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccsignatures</tabTrigger>
+    <tabTrigger>tccsignature</tabTrigger>
     <scope>source.python</scope>
+    <description>Create signature</description>
 </snippet>

@@ -23,4 +23,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrmhosts</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve multiple hosts</description>
 </snippet>

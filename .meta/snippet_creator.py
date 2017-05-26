@@ -17,6 +17,7 @@ for attribute in ${1:indicator}.attributes:
 ]]></content>
     <tabTrigger>tclattributes</tabTrigger>
     <scope>source.python</scope>
+    <description>Load attributes</description>
 </snippet>"""
 
 """Names of the items to be replaced from the template snippet.

@@ -21,4 +21,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrsemailAddress</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve a single email address</description>
 </snippet>

@@ -7,4 +7,5 @@ for associated_group in ${1:indicator}.group_associations:
 ]]></content>
     <tabTrigger>tcrassocgroups</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve associated groups</description>
 </snippet>

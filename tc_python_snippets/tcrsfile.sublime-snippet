@@ -22,4 +22,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrsfile</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve a single file indicator</description>
 </snippet>

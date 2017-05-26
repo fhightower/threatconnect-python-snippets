@@ -5,4 +5,5 @@ ${1:indicator}.associate_victim(${2:enter victim ID})
 ]]></content>
     <tabTrigger>tcaassocvictim</tabTrigger>
     <scope>source.python</scope>
+    <description></description>
 </snippet>

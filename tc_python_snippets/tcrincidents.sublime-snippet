@@ -19,4 +19,5 @@ for incident in incidents:
 ]]></content>
     <tabTrigger>tcrincidents</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve incidents</description>
 </snippet>

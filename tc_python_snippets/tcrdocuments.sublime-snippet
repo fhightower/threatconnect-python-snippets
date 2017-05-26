@@ -19,4 +19,5 @@ for document in documents:
 ]]></content>
     <tabTrigger>tcrdocuments</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve documents</description>
 </snippet>

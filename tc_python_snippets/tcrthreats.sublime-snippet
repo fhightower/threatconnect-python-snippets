@@ -19,4 +19,5 @@ for threat in threats:
 ]]></content>
     <tabTrigger>tcrthreats</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve threats</description>
 </snippet>

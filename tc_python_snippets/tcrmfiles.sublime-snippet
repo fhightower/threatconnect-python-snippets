@@ -23,4 +23,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrmfiles</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve multiple file indicators</description>
 </snippet>

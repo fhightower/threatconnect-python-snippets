@@ -23,4 +23,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrmaddresses</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve multiple IP addresses</description>
 </snippet>

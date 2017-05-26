@@ -7,4 +7,5 @@ for associated_victim in ${1:group}.victim_associations:
 ]]></content>
     <tabTrigger>tcrassocvictims</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve associated victims</description>
 </snippet>

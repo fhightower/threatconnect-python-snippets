@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcuthreats</tabTrigger>
+    <tabTrigger>tcuthreat</tabTrigger>
     <scope>source.python</scope>
+    <description>Update threat</description>
 </snippet>

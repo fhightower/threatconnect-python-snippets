@@ -4,4 +4,5 @@ filter1.add_${1:tag}(${2:})
 ]]></content>
     <tabTrigger>tcfilter</tabTrigger>
     <scope>source.python</scope>
+    <description>Generic filter</description>
 </snippet>

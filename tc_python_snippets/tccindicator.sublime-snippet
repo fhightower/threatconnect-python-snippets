@@ -14,6 +14,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccindicators</tabTrigger>
+    <tabTrigger>tccindicator</tabTrigger>
     <scope>source.python</scope>
+    <description>Create indicator</description>
 </snippet>

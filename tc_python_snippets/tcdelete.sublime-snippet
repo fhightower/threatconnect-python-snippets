@@ -5,4 +5,5 @@ ${1:indicator}.delete()
 ]]></content>
     <tabTrigger>tcdelete</tabTrigger>
     <scope>source.python</scope>
+    <description>Generic delete</description>
 </snippet>

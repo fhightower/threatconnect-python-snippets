@@ -19,4 +19,5 @@ for adversary in adversaries:
 ]]></content>
     <tabTrigger>tcradversaries</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve adversaries</description>
 </snippet>

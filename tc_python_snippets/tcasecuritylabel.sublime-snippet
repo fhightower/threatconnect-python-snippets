@@ -5,4 +5,5 @@ ${1:indicator}.set_security_label('${2:Security label}')
 ]]></content>
     <tabTrigger>tcasecuritylabel</tabTrigger>
     <scope>source.python</scope>
+    <description></description>
 </snippet>

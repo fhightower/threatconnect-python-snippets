@@ -28,4 +28,5 @@ owner = ${2:api_default_org}
 ]]></content>
     <tabTrigger>tcconfig</tabTrigger>
     <scope>source.python</scope>
+    <description>TC configuration heading</description>
 </snippet>

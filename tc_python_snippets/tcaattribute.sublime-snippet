@@ -5,4 +5,5 @@ ${1:indicator}.add_attribute('${2:Description}', '${3:Attribute value here...}')
 ]]></content>
     <tabTrigger>tcaattribute</tabTrigger>
     <scope>source.python</scope>
+    <description></description>
 </snippet>

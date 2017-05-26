@@ -17,6 +17,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcuadversaries</tabTrigger>
+    <tabTrigger>tcuadversary</tabTrigger>
     <scope>source.python</scope>
+    <description>Update adversary</description>
 </snippet>

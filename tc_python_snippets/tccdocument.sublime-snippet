@@ -15,6 +15,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccdocuments</tabTrigger>
+    <tabTrigger>tccdocument</tabTrigger>
     <scope>source.python</scope>
+    <description>Create document</description>
 </snippet>

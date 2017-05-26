@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcuemails</tabTrigger>
+    <tabTrigger>tcuemail</tabTrigger>
     <scope>source.python</scope>
+    <description>Update email</description>
 </snippet>

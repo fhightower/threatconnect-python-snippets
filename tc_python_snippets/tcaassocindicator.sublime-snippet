@@ -8,4 +8,5 @@ ${1:incident}.associate_indicator(ResourceType.${2:FILES}, '${3:enter indicator}
 ]]></content>
     <tabTrigger>tcaassocindicator</tabTrigger>
     <scope>source.python</scope>
+    <description></description>
 </snippet>

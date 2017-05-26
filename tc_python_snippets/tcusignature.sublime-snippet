@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tcusignatures</tabTrigger>
+    <tabTrigger>tcusignature</tabTrigger>
     <scope>source.python</scope>
+    <description>Update signature</description>
 </snippet>

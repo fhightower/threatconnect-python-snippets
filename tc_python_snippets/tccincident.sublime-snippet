@@ -18,6 +18,7 @@ except RuntimeError as e:
     sys.exit(1)
 
 ]]></content>
-    <tabTrigger>tccincidents</tabTrigger>
+    <tabTrigger>tccincident</tabTrigger>
     <scope>source.python</scope>
+    <description>Create incident</description>
 </snippet>

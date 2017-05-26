@@ -19,4 +19,5 @@ for email in emails:
 ]]></content>
     <tabTrigger>tcremails</tabTrigger>
     <scope>source.python</scope>
+    <description>Retrieve emails</description>
 </snippet>

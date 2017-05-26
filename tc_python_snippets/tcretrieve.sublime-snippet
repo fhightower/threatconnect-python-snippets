@@ -5,4 +5,5 @@ ${1:indicators}.retrieve()
 ]]></content>
     <tabTrigger>tcretrieve</tabTrigger>
     <scope>source.python</scope>
+    <description>Generic retrieve</description>
 </snippet>

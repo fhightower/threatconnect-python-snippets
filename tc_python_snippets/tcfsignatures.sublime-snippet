@@ -8,4 +8,5 @@ filter1.add_${1:owner}(${2:owner})
 ]]></content>
     <tabTrigger>tcfsignatures</tabTrigger>
     <scope>source.python</scope>
+    <description>Filter signatures</description>
 </snippet>

@@ -7,4 +7,5 @@ filter1.add_${1:owner}(${2:owner})
 ]]></content>
     <tabTrigger>tcfgroups</tabTrigger>
     <scope>source.python</scope>
+    <description>Filter groups</description>
 </snippet>

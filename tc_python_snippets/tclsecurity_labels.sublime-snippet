@@ -9,4 +9,5 @@ for security_label in ${1:indicator}.security_labels:
 ]]></content>
     <tabTrigger>tclsecurity_labels</tabTrigger>
     <scope>source.python</scope>
+    <description>Load security labels</description>
 </snippet>
