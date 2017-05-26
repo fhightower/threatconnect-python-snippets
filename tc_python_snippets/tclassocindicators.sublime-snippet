@@ -5,7 +5,7 @@ for associated_indicator in ${1:group}.indicator_associations:
     ${2:print(associated_indicator.indicator)}
 
 ]]></content>
-    <tabTrigger>tcrassocindicators</tabTrigger>
+    <tabTrigger>tclassocindicators</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve indicators</description>
+    <description>Load associated indicators</description>
 </snippet>

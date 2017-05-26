@@ -5,7 +5,7 @@ for associated_group in ${1:indicator}.group_associations:
     ${2:print(associated_group.name)}
 
 ]]></content>
-    <tabTrigger>tcrassocgroups</tabTrigger>
+    <tabTrigger>tclassocgroups</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve associated groups</description>
+    <description>Load associated groups</description>
 </snippet>

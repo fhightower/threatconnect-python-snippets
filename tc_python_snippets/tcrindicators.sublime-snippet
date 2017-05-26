@@ -17,5 +17,5 @@ for indicator in indicators:
 ]]></content>
     <tabTrigger>tcrindicators</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve indicators</description>
+    <description>Retrieve indicators (all indicator types)</description>
 </snippet>

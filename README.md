@@ -43,22 +43,42 @@ List of possible actions coming soon...
 
 ### Helpful Utility Snippets
 
-- `tcconfig`: get a standard ThreatConnect configuration to start a script
+- `tccommit`: Generic commit
+- `tcconfig`: TC configuration heading
+- `tcdelete`: Generic delete
+- `tcfilter`: Generic filter
+- `tcretrieve`: Generic retrieve
+- `tctime`: Time format for TC's Py SDK (REQUIRES: from datetime import datetime)
 
 ### Indicators
 
 #### Retrieving Indicators
 
-- `tcrindicators`: retrieve indicators (all indicator types)
-- Coming soon...
+- `tcrindicators`: Retrieve indicators (all indicator types)
+
+##### Multi-Retrieve
+
+- `tcrmaddresses`: Retrieve multiple IP addresses
+- `tcrmemailAddresses`: Retrieve multiple email addresses
+- `tcrmfiles`: Retrieve multiple file indicators
+- `tcrmhosts`: Retrieve multiple hosts
+- `tcrmurls`: Retrieve multiple URLs
+
+##### Single Retrieve
+
+- `tcrsaddress`: Retrieve a single IP address
+- `tcrsemailAddress`: Retrieve a single email address
+- `tcrsfile`: Retrieve a single file indicator
+- `tcrshost`: Retrieve a single host
+- `tcrsurl`: Retrieve a single URL
 
 #### Filtering Indicators
 
-Coming soon...
+- `tcfindicators`: Filter indicators
 
 #### Creating Indicators
 
-Coming soon...
+- `tccindicator`: Create indicator
 
 #### Deleting Indicators
 
@@ -68,38 +88,45 @@ Coming soon...
 
 #### Retrieving Groups
 
-- `tcradversaries`: retrieve adversaries
-- `tcrcampaigns`: retrieve campaigns
-- `tcrdocuments`: retrieve documents
-- `tcremails`: retrieve emails
-- `tcrgroups`: retrieve groups (all group types)
-- `tcrincidents`: retrieve incidents
-- `tcrsignatures`: retrieve signatures
-- `tcrthreats`: retrieve threats
+- `tcradversaries`: Retrieve adversaries
+- `tcrcampaigns`: Retrieve campaigns
+- `tcrdocuments`: Retrieve documents
+- `tcremails`: Retrieve emails
+- `tcrgroups`: Retrieve groups (all group types)
+- `tcrincidents`: Retrieve incidents
+- `tcrsignatures`: Retrieve signatures
+- `tcrthreats`: Retrieve threats
 
 #### Filtering Groups
 
-Coming soon...
+- `tcfadversaries`: Filter adversaries
+- `tcfcampaigns`: Filter campaigns
+- `tcfdocuments`: Filter documents
+- `tcfemails`: Filter emails
+- `tcfgroups`: Filter groups
+- `tcfincidents`: Filter incidents
+- `tcfsignatures`: Filter signatures
+- `tcfthreats`: Filter threats
 
 #### Creating Groups
 
-- `tccadversaries`: create adversaries
-- `tcccampaigns`: create campaigns
-- `tccdocuments`: create documents
-- `tccemails`: create emails
-- `tccincidents`: create incidents
-- `tccsignatures`: create signatures
-- `tccthreats`: create threats
+- `tccadversary`: Create adversary
+- `tcccampaign`: Create campaign
+- `tccdocument`: Create document
+- `tccemail`: Create email
+- `tccincident`: Create incident
+- `tccsignature`: Create signature
+- `tccthreat`: Create threat
 
 #### Updating Groups
 
-- `tcuadversaries`: update adversaries
-- `tcucampaigns`: update campaigns
-- `tcudocuments`: update documents
-- `tcuemails`: update emails
-- `tcuincidents`: update incidents
-- `tcusignatures`: update signatures
-- `tcuthreats`: update threats
+- `tcuadversary`: Update adversary
+- `tcucampaign`: Update campaign
+- `tcudocument`: Update document
+- `tcuemail`: Update email
+- `tcuincident`: Update incident
+- `tcusignature`: Update signature
+- `tcuthreat`: Update threat
 
 #### Deleting Groups
 
@@ -115,7 +142,7 @@ Coming soon...
 
 Coming soon...
 
-#### Retrieving Victims
+<!-- #### Retrieving Victims
 
 #### Filtering Victims
 
@@ -123,20 +150,30 @@ Coming soon...
 
 #### Updating Victims
 
-#### Deleting Victims
+#### Deleting Victims -->
 
 ### Metadata
 
-#### Retrieving Metadata
+#### Loading/Retrieving Metadata
 
-Coming soon...
+- `tclassocgroups`: Retrieve associated groups
+- `tclassocindicators`: Retrieve associated indicators
+- `tclassocvictims`: Retrieve associated victims
+- `tclassociations`: Load associations
+- `tclattributes`: Load attributes
+- `tclfileoccurrences`: Load file occurrences
+- `tclsecurity_labels`: Load security labels
+- `tcltags`: Load tags
 
 #### Adding Metadata
 
-- `tcaattribute`: adding an attribute
-- `tcaratings`: adding a threat and confidence rating
-- `tcasecuritylabel`: adding a security label
-- `tcatag`: adding a tag
+- `tcaassocgroup`: Add an associated group
+- `tcaassocindicator`: Add an associated indicator
+- `tcaassocvictim`: Add an associated victim
+- `tcaattribute`: Add an attribute
+- `tcaratings`: Add threat and confidence ratings
+- `tcasecuritylabel`: Add a security label
+- `tcatag`: Add a tag
 
 #### Updating Metadata
 

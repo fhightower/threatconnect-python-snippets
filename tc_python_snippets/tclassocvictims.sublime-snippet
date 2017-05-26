@@ -5,7 +5,7 @@ for associated_victim in ${1:group}.victim_associations:
     ${2:print(associated_victim.name)}
 
 ]]></content>
-    <tabTrigger>tcrassocvictims</tabTrigger>
+    <tabTrigger>tclassocvictims</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve associated victims</description>
+    <description>Load associated victims</description>
 </snippet>

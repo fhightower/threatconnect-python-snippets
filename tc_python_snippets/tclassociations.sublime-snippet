@@ -9,5 +9,5 @@ for association in ${1:indicator}.associations:
 ]]></content>
     <tabTrigger>tclassociations</tabTrigger>
     <scope>source.python</scope>
-    <description>Load attributes</description>
+    <description>Load associations</description>
 </snippet>

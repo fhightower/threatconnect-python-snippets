@@ -17,5 +17,5 @@ for group in groups:
 ]]></content>
     <tabTrigger>tcrgroups</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve groups</description>
+    <description>Retrieve groups (all group types)</description>
 </snippet>
