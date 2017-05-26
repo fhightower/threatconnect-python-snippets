@@ -25,19 +25,19 @@ The `<action>` is usually one letter that represents *what* we want to do (refer
 | **U**pdate | `u` | Update something that already exits in ThreatConnect |
 | **D**elete | `d` | Delete something from ThreatConnect |
 | **A**dd/set Metadata | `a` | Add metadata to an object |
-| **L**oad Metadata | `l` | Load metadata for an object |
+| **L**oad Metadata | `l` | Load metadata about an object |
 | **F**ilter | `f` | Filter objects when retrieving |  
 
 ### Objects
 
-List of possible actions coming soon...
+List of possible objects coming soon...
 
 ## Examples
 
-- `tcrindicators`: in this snippet, `r` is the action (it stands for "**r**etrieve") and `indicators` are the object. Thus, this snippet provides code to retrieve indicators.
-- `tcrgroups`: in this snippet, `r` is the action (it stands for "**r**etrieve") and `groups` are the object. Thus, this snippet provides code to retrieve groups.
-- `tcfindicators`: in this snippet, `f` is the action (it stands for "**f**ilter") and `indicators` are the object. Thus, this snippet provides code to filter indicators.
-- `tcfgroups`: in this snippet, `f` is the action (it stands for "**f**ilter") and `groups` are the object. Thus, this snippet provides code to filter groups.
+- `tcrindicators`: In this snippet, `r` is the action (it stands for "**r**etrieve") and `indicators` are the object. Thus, this snippet provides code to retrieve indicators.
+- `tcrgroups`: In this snippet, `r` is the action (it stands for "**r**etrieve") and `groups` are the object. Thus, this snippet provides code to retrieve groups.
+- `tcfindicators`: In this snippet, `f` is the action (it stands for "**f**ilter") and `indicators` are the object. Thus, this snippet provides code to filter indicators.
+- `tcfgroups`: In this snippet, `f` is the action (it stands for "**f**ilter") and `groups` are the object. Thus, this snippet provides code to filter groups.
 
 ## Complete List of Snippets
 
