@@ -8,5 +8,5 @@ ${1:indicator}.associate_group(ResourceType.${2:INCIDENTS}, ${3:enter group ID})
 ]]></content>
     <tabTrigger>tcaassocgroup</tabTrigger>
     <scope>source.python</scope>
-    <description></description>
+    <description>Add an associated group</description>
 </snippet>
