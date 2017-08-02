@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+# instantiate tasks object
+tasks = tc.tasks()
+
+# create a new task
+task = tasks.add('${1:task name here}')
+
+${2:# add metadata here if needed}
+try:
+    # create the task
+    task.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <description>create a task</description>
+    <scope>source.python</scope>
+    <tabTrigger>tcctasks</tabTrigger>
+</snippet>

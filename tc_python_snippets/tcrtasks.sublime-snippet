@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+# retrieve tasks
+tasks = tc.tasks()
+
+${1:# add filtering here if needed}
+try:
+    tasks.retrieve()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+for task in tasks:
+    ${2:print(task.name)}
+
+
+]]></content>
+    <description>retrieve tasks</description>
+    <scope>source.python</scope>
+    <tabTrigger>tcrtasks</tabTrigger>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+# add filter(s) for tasks
+filter1 = tasks.add_filter()
+filter1.add_${1:tag}(${2:tag})
+
+]]></content>
+    <description>filter tasks</description>
+    <scope>source.python</scope>
+    <tabTrigger>tcftasks</tabTrigger>
+</snippet>
