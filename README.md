@@ -50,40 +50,6 @@ List of possible objects coming soon...
 - `tcretrieve`: Generic retrieve
 - `tctime`: Time format for TC's Py SDK (REQUIRES: from datetime import datetime)
 
-### Indicators
-
-#### Retrieving Indicators
-
-- `tcrindicators`: Retrieve indicators (all indicator types)
-
-##### Multi-Retrieve
-
-- `tcrmaddresses`: Retrieve multiple IP addresses
-- `tcrmemailAddresses`: Retrieve multiple email addresses
-- `tcrmfiles`: Retrieve multiple file indicators
-- `tcrmhosts`: Retrieve multiple hosts
-- `tcrmurls`: Retrieve multiple URLs
-
-##### Single Retrieve
-
-- `tcrsaddress`: Retrieve a single IP address
-- `tcrsemailAddress`: Retrieve a single email address
-- `tcrsfile`: Retrieve a single file indicator
-- `tcrshost`: Retrieve a single host
-- `tcrsurl`: Retrieve a single URL
-
-#### Filtering Indicators
-
-- `tcfindicators`: Filter indicators
-
-#### Creating Indicators
-
-- `tccindicator`: Create indicator
-
-#### Deleting Indicators
-
-Coming soon...
-
 ### Groups
 
 #### Retrieving Groups
@@ -137,6 +103,58 @@ Coming soon...
 - `tcdincidents`: delete incidents
 - `tcdsignatures`: delete signatures
 - `tcdthreats`: delete threats
+
+### Indicators
+
+#### Retrieving Indicators
+
+- `tcrindicators`: Retrieve indicators (all indicator types)
+
+##### Multi-Retrieve
+
+- `tcrmaddresses`: Retrieve multiple IP addresses
+- `tcrmemailAddresses`: Retrieve multiple email addresses
+- `tcrmfiles`: Retrieve multiple file indicators
+- `tcrmhosts`: Retrieve multiple hosts
+- `tcrmurls`: Retrieve multiple URLs
+
+##### Single Retrieve
+
+- `tcrsaddress`: Retrieve a single IP address
+- `tcrsemailAddress`: Retrieve a single email address
+- `tcrsfile`: Retrieve a single file indicator
+- `tcrshost`: Retrieve a single host
+- `tcrsurl`: Retrieve a single URL
+
+#### Filtering Indicators
+
+- `tcfindicators`: Filter indicators
+
+#### Creating Indicators
+
+- `tccindicator`: Create indicator
+
+#### Deleting Indicators
+
+Coming soon...
+
+### Tasks
+
+#### Retrieving Tasks
+
+- `tcrtasks`: retrieve tasks
+
+#### Filtering Tasks
+
+- `tcftasks`: filter tasks
+
+#### Creating Tasks
+
+- `tcctasks`: create a task
+
+#### Updating Tasks
+
+- `tcutasks`: update a task
 
 ### Victims
 
