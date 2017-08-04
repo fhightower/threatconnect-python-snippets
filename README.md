@@ -45,6 +45,7 @@ List of possible objects coming soon...
 
 - `tccommit`: Generic commit
 - `tcconfig`: TC configuration heading
+- `tccustomcall`: Make a custom API call
 - `tcdelete`: Generic delete
 - `tcfilter`: Generic filter
 - `tcretrieve`: Generic retrieve

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+ro = RequestObject()
+ro.set_http_method('${1:POST}')
+body = {'${2:name}': 'Raw Upload Example'}
+ro.set_body(json.dumps(body))
+ro.set_content_type('application/json')
+ro.set_owner(${3:'Example Community'})
+ro.set_owner_allowed(True)
+ro.set_resource_pagination(False)
+ro.set_request_uri('${4:/v2/groups/documents}')
+
+results = tc.api_request(ro)
+]]></content>
+    <tabTrigger>tccustomcall</tabTrigger>
+    <scope>source.python</scope>
+    <description>Custom API call</description>
+</snippet>
