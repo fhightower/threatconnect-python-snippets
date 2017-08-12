@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+indicators = tc.indicators()
+
+# create a new file indicator
+indicator = indicators.add('${1:indicator here}', owner)
+indicator.set_indicator('${2:add another hash here}')
+indicator.set_indicator('${3:add another hash here}')
+
+${4:# add metadata here if needed}
+try:
+    # create the file indicator
+    indicator.commit()
+except RuntimeError as e:
+    print('Error: {0}'.format(e))
+    sys.exit(1)
+
+]]></content>
+    <tabTrigger>tccfileindicator</tabTrigger>
+    <scope>source.python</scope>
+    <description>Create file indicator</description>
+</snippet>

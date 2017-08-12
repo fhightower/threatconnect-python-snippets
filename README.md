@@ -134,6 +134,7 @@ List of possible objects coming soon...
 #### Creating Indicators
 
 - `tccindicator`: Create indicator
+- `tccfileindicator`: Create a file indicator
 
 #### Deleting Indicators
 
