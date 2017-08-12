@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+filter1.add_pf_${1:name}(${2:})
+]]></content>
+    <tabTrigger>tcpostfilter</tabTrigger>
+    <scope>source.python</scope>
+    <description>Add a post filter</description>
+</snippet>

@@ -47,7 +47,8 @@ List of possible objects coming soon...
 - `tcconfig`: TC configuration heading
 - `tccustomcall`: Make a custom API call
 - `tcdelete`: Generic delete
-- `tcfilter`: Generic filter
+- `tcfilter`: Add a filter
+- `tcpostfilter`: Add a post filter
 - `tcretrieve`: Generic retrieve
 - `tctime`: Time format for TC's Py SDK (REQUIRES: from datetime import datetime)
 
