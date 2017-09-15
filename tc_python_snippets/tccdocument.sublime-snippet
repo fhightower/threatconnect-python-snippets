@@ -5,8 +5,9 @@ documents = tc.documents()
 
 # create a new document
 document = documents.add('${1:document name here}', owner)
+document.set_file_name('${2:document file name here}')
 
-${2:# add metadata here if needed}
+${3:# add metadata here if needed}
 try:
     # create the document
     document.commit()
