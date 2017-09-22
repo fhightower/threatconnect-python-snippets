@@ -36,8 +36,8 @@ List of possible objects coming soon...
 
 - `tcrindicators`: In this snippet, `r` is the action (it stands for "**r**etrieve") and `indicators` are the object. Thus, this snippet provides code to retrieve indicators.
 - `tcrgroups`: In this snippet, `r` is the action (it stands for "**r**etrieve") and `groups` are the object. Thus, this snippet provides code to retrieve groups.
-- `tcfindicators`: In this snippet, `f` is the action (it stands for "**f**ilter") and `indicators` are the object. Thus, this snippet provides code to filter indicators.
-- `tcfgroups`: In this snippet, `f` is the action (it stands for "**f**ilter") and `groups` are the object. Thus, this snippet provides code to filter groups.
+- `tccindicator`: In this snippet, `c` is the action (it stands for "**c**reate") and `indicator` is the object. Thus, this snippet provides code to create an indicator.
+- `tclattributes`: In this snippet, `l` is the action (it stands for "**l**oad") and `attributes` are the object. Thus, this snippet provides code to load the attributes for an object.
 
 ## Complete List of Snippets
 
@@ -64,17 +64,6 @@ List of possible objects coming soon...
 - `tcrincidents`: Retrieve incidents
 - `tcrsignatures`: Retrieve signatures
 - `tcrthreats`: Retrieve threats
-
-#### Filtering Groups
-
-- `tcfadversaries`: Filter adversaries
-- `tcfcampaigns`: Filter campaigns
-- `tcfdocuments`: Filter documents
-- `tcfemails`: Filter emails
-- `tcfgroups`: Filter groups
-- `tcfincidents`: Filter incidents
-- `tcfsignatures`: Filter signatures
-- `tcfthreats`: Filter threats
 
 #### Creating Groups
 
@@ -128,10 +117,6 @@ List of possible objects coming soon...
 - `tcrshost`: Retrieve a single host
 - `tcrsurl`: Retrieve a single URL
 
-#### Filtering Indicators
-
-- `tcfindicators`: Filter indicators
-
 #### Creating Indicators
 
 - `tccindicator`: Create indicator
@@ -146,10 +131,6 @@ Coming soon...
 #### Retrieving Tasks
 
 - `tcrtasks`: retrieve tasks
-
-#### Filtering Tasks
-
-- `tcftasks`: filter tasks
 
 #### Creating Tasks
 

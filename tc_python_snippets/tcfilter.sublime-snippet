@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-filter1.add_${1:tag}(${2:})
+# add a filter for ${1:indicators}
+filter1 = ${1:indicators}.add_filter()
+filter1.add_${2:owner}(${3:})
+
 ]]></content>
     <tabTrigger>tcfilter</tabTrigger>
     <scope>source.python</scope>
