@@ -48,6 +48,7 @@ List of possible objects coming soon...
 - `tccustomcall`: Make a custom API call
 - `tcdelete`: Generic delete
 - `tcfilter`: Add a filter
+- `tcfilterparam`: Add a filter parameter
 - `tcpostfilter`: Add a post filter
 - `tcretrieve`: Generic retrieve
 - `tctime`: Time format for TC's Py SDK (REQUIRES: from datetime import datetime)
@@ -87,13 +88,13 @@ List of possible objects coming soon...
 
 #### Deleting Groups
 
-- `tcdadversaries`: delete adversaries
-- `tcdcampaigns`: delete campaigns
-- `tcddocuments`: delete documents
-- `tcdemails`: delete emails
-- `tcdincidents`: delete incidents
-- `tcdsignatures`: delete signatures
-- `tcdthreats`: delete threats
+- `tcdadversaries`: Delete adversaries
+- `tcdcampaigns`: Delete campaigns
+- `tcddocuments`: Delete documents
+- `tcdemails`: Delete emails
+- `tcdincidents`: Delete incidents
+- `tcdsignatures`: Delete signatures
+- `tcdthreats`: Delete threats
 
 ### Indicators
 
@@ -130,15 +131,15 @@ Coming soon...
 
 #### Retrieving Tasks
 
-- `tcrtasks`: retrieve tasks
+- `tcrtasks`: Retrieve tasks
 
 #### Creating Tasks
 
-- `tcctasks`: create a task
+- `tcctasks`: Create a task
 
 #### Updating Tasks
 
-- `tcutasks`: update a task
+- `tcutasks`: Update a task
 
 ### Victims
 

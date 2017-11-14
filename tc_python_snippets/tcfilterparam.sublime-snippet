@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+filter${1:1}.add_${2:tag}(${3:})
+]]></content>
+    <tabTrigger>tcfilterparam</tabTrigger>
+    <scope>source.python</scope>
+    <description>Add a filter parameter</description>
+</snippet>
