@@ -1,5 +1,7 @@
 <snippet>
     <content><![CDATA[
+from threatconnect.RequestObject import RequestObject
+
 ro = RequestObject()
 ro.set_http_method('${1:POST}')
 body = {'${2:name}': 'Raw Upload Example'}
