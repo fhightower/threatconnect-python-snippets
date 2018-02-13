@@ -112,11 +112,7 @@ List of possible objects coming soon...
 
 ##### Single Retrieve
 
-- `tcrsaddress`: Retrieve a single IP address
-- `tcrsemailAddress`: Retrieve a single email address
-- `tcrsfile`: Retrieve a single file indicator
-- `tcrshost`: Retrieve a single host
-- `tcrsurl`: Retrieve a single URL
+- `tcrsindicator`: Retrieve a single indicator
 
 #### Creating Indicators
 

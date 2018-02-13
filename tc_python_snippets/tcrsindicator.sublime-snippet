@@ -3,23 +3,23 @@
 # instantiate indicators object
 indicators = tc.indicators()
 
-# set a filter to retrieve a specific file indicator
+# set a filter to retrieve a specific indicator indicator
 filter1 = indicators.add_filter()
-filter1.add_indicator('${1:enter file here}')
+filter1.add_indicator('${1:enter indicator here}')
 ${2:# enter additional filters here if needed}
 
 try:
-    # retrieve the file
+    # retrieve the indicator
     indicators.retrieve()
 except RuntimeError as e:
     print('Error: {0}'.format(e))
     sys.exit(1)
 
-# do something with the retrieved file
+# do something with the retrieved indicator
 for indicator in indicators:
     ${3:print(indicator.indicator)}
 ]]></content>
-    <tabTrigger>tcrsfile</tabTrigger>
+    <tabTrigger>tcrsindicator</tabTrigger>
     <scope>source.python</scope>
-    <description>Retrieve a single file indicator</description>
+    <description>Retrieve a single indicator</description>
 </snippet>
