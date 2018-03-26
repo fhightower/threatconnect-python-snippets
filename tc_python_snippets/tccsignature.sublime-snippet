@@ -6,7 +6,11 @@ signatures = tc.signatures()
 # create a new signature
 signature = signatures.add('${1:signature name here}', owner)
 
-${2:# add metadata here if needed}
+signature.set_file_name('${2:signature file name here}')
+signature.set_file_type('${3:Yara}')
+signature.set_file_text('${4:signature text here}')
+
+${5:# add metadata here if needed}
 try:
     # create the signature
     signature.commit()
