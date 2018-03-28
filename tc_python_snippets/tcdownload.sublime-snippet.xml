@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:document}.download()
+if ${1:document}.contents is not None:
+    print(${1:document}.contents)
+]]></content>
+    <tabTrigger>tcdownload</tabTrigger>
+    <scope>source.python</scope>
+    <description>Download a document/signature</description>
+</snippet>
