@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:from threatconnect.Config.IndicatorType import IndicatorType}
+filter1 = indicators.add_filter(IndicatorType.${2:URLS})
+]]></content>
+    <tabTrigger>tcfilterindicatortype</tabTrigger>
+    <scope>source.python</scope>
+    <description>Filter by indicator type</description>
+</snippet>
